@@ -1,7 +1,7 @@
 CC = gcc
 
 all:
-	$(CC) hello.c src/*.c -o executables/hello.o -I include
+	$(CC) src/hello.c src/*.c -o executables/hello -I include
 clean:
 	rm executables/*.o
 

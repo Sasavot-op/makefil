@@ -3,5 +3,4 @@
 int main()
 {
     void greetings();
-    return 0;
 }
