@@ -1,7 +1,5 @@
 #include "my_lib.h"
 
-void greetings()
-{
-    printf("Hello World!/n");
-    return 0;
+void greetings() {
+    printf("Hello, World!\n"); 
 }

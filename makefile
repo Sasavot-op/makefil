@@ -1,13 +1,14 @@
 CC = gcc
 
 all:
-	$(CC) src/hello.c src/*.c -o executables/hello -I include
+	mkdir -p executables
+	$(CC) src/*.c -o executables/hello -I include
+
 clean:
-	rm executables/*.o
+	rm -f executables/hello
 
 run:
-	./executables/hello.o
-
+	./executables/hello
 
 make_and_run: all run
 

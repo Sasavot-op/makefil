@@ -1,6 +1,6 @@
 #include "my_lib.h"
 
-int main()
-{
-    void greetings();
+int main() {
+    greetings();
+    return 0;
 }
